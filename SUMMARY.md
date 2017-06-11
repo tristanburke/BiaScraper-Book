@@ -2,8 +2,11 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Preface and Mission](README.md)
+* [Planning](planning.md)
+* [Resources](resources.md)
 
 ## Methods
 
 * [Defining Methods](methods.md)
+
