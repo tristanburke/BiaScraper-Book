@@ -8,5 +8,9 @@
 
 #### New API's:
 
+#### Hosting:
+
 [Heroku - Hosting](https://www.heroku.com/platform)
+
+[AWS - Amazon](https://aws.amazon.com/)
 
