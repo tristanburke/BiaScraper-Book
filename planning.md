@@ -14,11 +14,9 @@ Potential News Sources:
 * New York Times
 * Huffington Post
 * The Guardian 
-* BBC 
+* BBC
 
- allow users to provide the url to a news article, then receive links to and General Idea:
+  Use some web scraping API \(see Resources\) to scrape an article provided by a user, then process and select keywords with relevancy based on frequency, word type, etc. and scrape recent articles from sites of other biases for similar features. We return the best match back to the user.
 
-Use some web scraping API \(see Resources\) to scrape an article provided by a user, then process and select keywords with relevancy based on frequency, word type, etc. and scrape recent articles from sites of other biases for similar features. We return the best match back to the user. 
-
-Tl;dr: Feature extraction and processing, then matching across a pre-determined selection of news sites. 
+Tl;dr: Feature extraction and processing, then matching across a pre-determined selection of news sites.
 
