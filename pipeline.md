@@ -46,5 +46,5 @@ User enters url to article. Form sends post request to "/".  We take article url
 resultSchema = {"title": String, "brand": String, "url": String, "text": String, "results": [articleSchema]}
 ```
 
-
+Then, we return the matching articles from each company to the server to be displayed to the user.
 
