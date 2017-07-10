@@ -26,6 +26,10 @@ Every hour, we query News API via the python requests package to receive the cur
 
 When a user submits an article, we first check to see if it is in our results database. If not, we will extract and analyze the sentiment of its main text as discussed above. If the article is from one of our core sources, then we check its text for similarity with all the current top articles from sources with sufficiently different biases and return appropriately similar articles from each. If the article is not from one of our main sources, then we check for similarity with all current articles from all sources with sufficiently different sentiment. From these, we select and return the few which are most similar to the input article using spaCy. We then store the input article and its information in our database with the same schema as before, but this time adding an array of our previously created schema, which will serve as the results for this input.
 
+
+
+# Alternative
+
 We begin with a selection of target news sources, and keep a database collection of them and each of their corresponding bias values with the following schema:
 
 ```
